@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bitrupt Trainee</title>
+    <link rel="stylesheet" href="./ContactUs.css" />
+  </head>
+  <body>
+    <div id="header">
+      <img
+        src="https://bitrupt.co/wp-content/uploads/2020/10/BITRUPTdone-2-60x64.png"
+        alt="logo"
+      />
+      <h1 id="main">My First Website By Bitrupt</h1>
+    </div>
+    <span id="left">
+      <a>Home</a>
+      <a>Profile</a>
+      <a>About Us</a>
+      <a href="./ContactUs.html">Contact Us</a>
+      <a id="lastButton">Log out</a>
+    </span>
+    <div id="right">
+      <div id="inner">
+        <form name="form" action="post" onsubmit="return validateForm()">
+          <div>
+          <label>Full Name:</label>
+          <input name="name" type="text">
+        </div>
+        <div>
+          <label >Email:</label>
+          <input name="email" type="text">
+        </div>
+        <div>
+          <label>Country:</label>
+          <select name="country" id="country">
+            <option value="pakistan">Pakistan</option>
+            <option value="kuwait">Kuwait</option>
+            <option value="saudi_arabia">Saudi Arabia</option>
+          </select>
+        </div>
+        <div>
+          <label>Subject:</label>
+          <input name="subject" type="text">
+        </div>
+        <div id="textareaDiv">
+          <label>Your Message:</label>
+          <input name="message" type="textarea" id="textarea">          
+          <button id="submitButton" type="submit">Submit</button>
+        </div>
+        </form>
+    </div>
+    <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=72.74116516113283%2C33.5184992376561%2C73.2176971435547%2C33.86927529957081&amp;layer=mapnik" style="border: 1px solid black"></iframe>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
